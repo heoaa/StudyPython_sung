@@ -2,7 +2,7 @@
 2022 빅데이터 분석 과정 -파이썬 기초 학습
 
 <!-- <img src='./image/python_logo.png' /> -->
-![파이썬](./image/python_logo.png)
+![파이썬](C:\STUDY\StudyPython_sung\imagespython_logo.png)
 
 
 ### 1일차
