@@ -13,12 +13,17 @@ print(oct(10))
 # 16진수 표현 0x
 print(0xff)
 
+print('\n--------------------------------------')
+
 # 통화단위 : 천단위 , 대신 _ 표현
 salery = 4_500_000
 print(salery)
 
+print('\n--------------------------------------')
 
+# 데이터타입 확인
 print(type(1))
 print(type(3.14))
 z=False
 print(type(z))
+
