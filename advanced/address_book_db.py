@@ -71,8 +71,7 @@ def set_contact(conn) :
         name, phone_num, e_mail, addr = \
             input('정보입력(이름, 핸드폰, 이메일, 주소(구분자 /)) > ').split('/')
         contact = Contact(name, phone_num, e_mail, addr)
-        # DB처리
-        cur = conn.cursor() 
+        cur = conn.cursor()  # DB처리
         # 공백없으면 예외발생(문자열, 공백 중요) // 따옴표로 구분하여 내리면 이어붙이기 가능(, 입력시 튜플로 인식)
         query = ('INSERT INTO addressbook '
                  'VALUES (SEQ_ADDRBOOK.nextval, :1, :2, :3, :4)')

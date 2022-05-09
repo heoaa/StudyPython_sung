@@ -82,7 +82,7 @@ def get_contact(list_contact) :
 
 #  주소록 삭제
 def del_contact(list_contact, name) :
-    for i, contact in enumerate(list_contact) :    # 부가설명 (0506 금)
+    for i, contact in enumerate(list_contact) :
         if contact.name == name : 
             del list_contact[i]
 
