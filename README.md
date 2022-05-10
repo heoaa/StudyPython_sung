@@ -81,3 +81,7 @@
    - 스레드/멀티프로세스
    - etc 등
 - 코딩테스트
+
+```python
+print('Hello, Python!)
+```
