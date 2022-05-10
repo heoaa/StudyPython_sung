@@ -81,6 +81,7 @@ def get_contact(list_contact) :
         print(contact)
 
 #  주소록 삭제
+# enumerate : 리스트값뿐만 아니라 인덱스까지 함께 튜플형식으로 출력 (인덱스, 리스트값) > 열거형
 def del_contact(list_contact, name) :
     for i, contact in enumerate(list_contact) :
         if contact.name == name : 
